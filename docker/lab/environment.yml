@@ -1,0 +1,16 @@
+name: hbn-bids-curation
+channels:
+  - plotly
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip=21.0.1
+  - plotly=4.14.1
+  - jupyterlab=3.0.7
+  - jupyter_contrib_nbextensions=0.5.1
+  - cvxpy=1.1.5
+  - psutil=5.7.0
+  - python-kaleido=0.0.3
+  - pip:
+    - pyafq==0.5
